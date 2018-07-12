@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69658EF10E263BA64E39A91A /* Pods_KMITL_Subject_review_applicationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A208FE0956C872DB55FAFA /* Pods_KMITL_Subject_review_applicationTests.framework */; };
+		A4C10D9CC59BE4F1FDF5D16B /* Pods_KMITL_Subject_review_applicationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA6320C948612C593BDA7C8E /* Pods_KMITL_Subject_review_applicationUITests.framework */; };
 		B2FA15BF20F7232D001F6073 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FA15BE20F7232D001F6073 /* AppDelegate.swift */; };
 		B2FA15C120F7232D001F6073 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FA15C020F7232D001F6073 /* ViewController.swift */; };
 		B2FA15C420F7232D001F6073 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2FA15C220F7232D001F6073 /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		B2FA15C920F7232E001F6073 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2FA15C720F7232E001F6073 /* LaunchScreen.storyboard */; };
 		B2FA15D420F7232E001F6073 /* KMITL_Subject_review_applicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FA15D320F7232E001F6073 /* KMITL_Subject_review_applicationTests.swift */; };
 		B2FA15DF20F7232F001F6073 /* KMITL_Subject_review_applicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FA15DE20F7232F001F6073 /* KMITL_Subject_review_applicationUITests.swift */; };
+		B2FA15ED20F72497001F6073 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2FA15EC20F72497001F6073 /* GoogleService-Info.plist */; };
+		F635A6B861F57D27E930B100 /* Pods_KMITL_Subject_review_application.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF9187E44ED6C8F364949F3 /* Pods_KMITL_Subject_review_application.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		154BD5CC089314370012631E /* Pods-KMITL_Subject_review_applicationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KMITL_Subject_review_applicationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KMITL_Subject_review_applicationTests/Pods-KMITL_Subject_review_applicationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1770C34B6BC05A599F5BF699 /* Pods-KMITL_Subject_review_application.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KMITL_Subject_review_application.release.xcconfig"; path = "Pods/Target Support Files/Pods-KMITL_Subject_review_application/Pods-KMITL_Subject_review_application.release.xcconfig"; sourceTree = "<group>"; };
+		43A208FE0956C872DB55FAFA /* Pods_KMITL_Subject_review_applicationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KMITL_Subject_review_applicationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7277CE09D833E892E6A45092 /* Pods-KMITL_Subject_review_applicationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KMITL_Subject_review_applicationUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KMITL_Subject_review_applicationUITests/Pods-KMITL_Subject_review_applicationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8E25FA7E1E7BFFB5743D5161 /* Pods-KMITL_Subject_review_applicationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KMITL_Subject_review_applicationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KMITL_Subject_review_applicationTests/Pods-KMITL_Subject_review_applicationTests.release.xcconfig"; sourceTree = "<group>"; };
+		8FF9187E44ED6C8F364949F3 /* Pods_KMITL_Subject_review_application.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KMITL_Subject_review_application.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2FA15BB20F7232D001F6073 /* KMITL_Subject_review_application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KMITL_Subject_review_application.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2FA15BE20F7232D001F6073 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2FA15C020F7232D001F6073 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,10 @@
 		B2FA15DA20F7232F001F6073 /* KMITL_Subject_review_applicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMITL_Subject_review_applicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2FA15DE20F7232F001F6073 /* KMITL_Subject_review_applicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMITL_Subject_review_applicationUITests.swift; sourceTree = "<group>"; };
 		B2FA15E020F7232F001F6073 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2FA15EC20F72497001F6073 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BFEAB8A9ED29391BEF02B938 /* Pods-KMITL_Subject_review_application.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KMITL_Subject_review_application.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KMITL_Subject_review_application/Pods-KMITL_Subject_review_application.debug.xcconfig"; sourceTree = "<group>"; };
+		CA6320C948612C593BDA7C8E /* Pods_KMITL_Subject_review_applicationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KMITL_Subject_review_applicationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4610E56F92FE832050184C4 /* Pods-KMITL_Subject_review_applicationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KMITL_Subject_review_applicationUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KMITL_Subject_review_applicationUITests/Pods-KMITL_Subject_review_applicationUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F635A6B861F57D27E930B100 /* Pods_KMITL_Subject_review_application.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69658EF10E263BA64E39A91A /* Pods_KMITL_Subject_review_applicationTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4C10D9CC59BE4F1FDF5D16B /* Pods_KMITL_Subject_review_applicationUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16B0DEF9C08B51B265EF67DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FF9187E44ED6C8F364949F3 /* Pods_KMITL_Subject_review_application.framework */,
+				43A208FE0956C872DB55FAFA /* Pods_KMITL_Subject_review_applicationTests.framework */,
+				CA6320C948612C593BDA7C8E /* Pods_KMITL_Subject_review_applicationUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B2FA15B220F7232D001F6073 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +108,8 @@
 				B2FA15D220F7232E001F6073 /* KMITL_Subject_review_applicationTests */,
 				B2FA15DD20F7232F001F6073 /* KMITL_Subject_review_applicationUITests */,
 				B2FA15BC20F7232D001F6073 /* Products */,
+				EAA883F82A81530E01B289B3 /* Pods */,
+				16B0DEF9C08B51B265EF67DE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +132,7 @@
 				B2FA15C520F7232E001F6073 /* Assets.xcassets */,
 				B2FA15C720F7232E001F6073 /* LaunchScreen.storyboard */,
 				B2FA15CA20F7232E001F6073 /* Info.plist */,
+				B2FA15EC20F72497001F6073 /* GoogleService-Info.plist */,
 			);
 			path = KMITL_Subject_review_application;
 			sourceTree = "<group>";
@@ -125,6 +155,19 @@
 			path = KMITL_Subject_review_applicationUITests;
 			sourceTree = "<group>";
 		};
+		EAA883F82A81530E01B289B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFEAB8A9ED29391BEF02B938 /* Pods-KMITL_Subject_review_application.debug.xcconfig */,
+				1770C34B6BC05A599F5BF699 /* Pods-KMITL_Subject_review_application.release.xcconfig */,
+				154BD5CC089314370012631E /* Pods-KMITL_Subject_review_applicationTests.debug.xcconfig */,
+				8E25FA7E1E7BFFB5743D5161 /* Pods-KMITL_Subject_review_applicationTests.release.xcconfig */,
+				E4610E56F92FE832050184C4 /* Pods-KMITL_Subject_review_applicationUITests.debug.xcconfig */,
+				7277CE09D833E892E6A45092 /* Pods-KMITL_Subject_review_applicationUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2FA15E320F7232F001F6073 /* Build configuration list for PBXNativeTarget "KMITL_Subject_review_application" */;
 			buildPhases = (
+				3BBEC6F2F65F02796113B773 /* [CP] Check Pods Manifest.lock */,
 				B2FA15B720F7232D001F6073 /* Sources */,
 				B2FA15B820F7232D001F6073 /* Frameworks */,
 				B2FA15B920F7232D001F6073 /* Resources */,
+				B2CCC7AB39583733040E767A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2FA15E620F7232F001F6073 /* Build configuration list for PBXNativeTarget "KMITL_Subject_review_applicationTests" */;
 			buildPhases = (
+				0FD513A270132EDD85DFF2E5 /* [CP] Check Pods Manifest.lock */,
 				B2FA15CB20F7232E001F6073 /* Sources */,
 				B2FA15CC20F7232E001F6073 /* Frameworks */,
 				B2FA15CD20F7232E001F6073 /* Resources */,
@@ -167,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2FA15E920F7232F001F6073 /* Build configuration list for PBXNativeTarget "KMITL_Subject_review_applicationUITests" */;
 			buildPhases = (
+				AF0ACF82E4F5B3DAEB9E0A8B /* [CP] Check Pods Manifest.lock */,
 				B2FA15D620F7232F001F6073 /* Sources */,
 				B2FA15D720F7232F001F6073 /* Frameworks */,
 				B2FA15D820F7232F001F6073 /* Resources */,
@@ -230,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2FA15C920F7232E001F6073 /* LaunchScreen.storyboard in Resources */,
+				B2FA15ED20F72497001F6073 /* GoogleService-Info.plist in Resources */,
 				B2FA15C620F7232E001F6073 /* Assets.xcassets in Resources */,
 				B2FA15C420F7232D001F6073 /* Main.storyboard in Resources */,
 			);
@@ -250,6 +298,85 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FD513A270132EDD85DFF2E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KMITL_Subject_review_applicationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BBEC6F2F65F02796113B773 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KMITL_Subject_review_application-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF0ACF82E4F5B3DAEB9E0A8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KMITL_Subject_review_applicationUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2CCC7AB39583733040E767A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KMITL_Subject_review_application/Pods-KMITL_Subject_review_application-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KMITL_Subject_review_application/Pods-KMITL_Subject_review_application-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B2FA15B720F7232D001F6073 /* Sources */ = {
@@ -428,8 +555,10 @@
 		};
 		B2FA15E420F7232F001F6073 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFEAB8A9ED29391BEF02B938 /* Pods-KMITL_Subject_review_application.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L4D9F78GB2;
 				INFOPLIST_FILE = KMITL_Subject_review_application/Info.plist;
@@ -439,6 +568,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "intersignature.KMITL-Subject-review-application";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -446,8 +576,10 @@
 		};
 		B2FA15E520F7232F001F6073 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1770C34B6BC05A599F5BF699 /* Pods-KMITL_Subject_review_application.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L4D9F78GB2;
 				INFOPLIST_FILE = KMITL_Subject_review_application/Info.plist;
@@ -457,6 +589,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "intersignature.KMITL-Subject-review-application";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -464,6 +597,7 @@
 		};
 		B2FA15E720F7232F001F6073 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 154BD5CC089314370012631E /* Pods-KMITL_Subject_review_applicationTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +619,7 @@
 		};
 		B2FA15E820F7232F001F6073 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E25FA7E1E7BFFB5743D5161 /* Pods-KMITL_Subject_review_applicationTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +641,7 @@
 		};
 		B2FA15EA20F7232F001F6073 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4610E56F92FE832050184C4 /* Pods-KMITL_Subject_review_applicationUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +662,7 @@
 		};
 		B2FA15EB20F7232F001F6073 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7277CE09D833E892E6A45092 /* Pods-KMITL_Subject_review_applicationUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

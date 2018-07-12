@@ -1,0 +1,6 @@
+framework module Pods_KMITL_Subject_review_applicationUITests {
+  umbrella header "Pods-KMITL_Subject_review_applicationUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
