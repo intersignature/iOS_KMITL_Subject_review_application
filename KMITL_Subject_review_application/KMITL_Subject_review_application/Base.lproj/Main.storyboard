@@ -58,6 +58,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="signinAct:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a82-ff-X1B"/>
                                     <segue destination="gsh-la-AkG" kind="show" id="z7n-bU-KpQ"/>
                                 </connections>
                             </button>
@@ -119,6 +120,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="Q0g-ZP-9Uz"/>
+                    <connections>
+                        <outlet property="emailTF" destination="cD0-PG-RHy" id="Pdy-3z-ly6"/>
+                        <outlet property="passwordTF" destination="Jjr-k2-Swj" id="GMm-72-JqD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
