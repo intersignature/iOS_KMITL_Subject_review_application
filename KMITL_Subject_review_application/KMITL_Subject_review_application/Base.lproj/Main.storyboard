@@ -248,7 +248,7 @@
         <!--KMITL Backyard-->
         <scene sceneID="VKc-by-VWk">
             <objects>
-                <viewController id="5rZ-4f-88M" sceneMemberID="viewController">
+                <viewController id="5rZ-4f-88M" customClass="ShowDataViewController" customModule="KMITL_Subject_review_application" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9CD-bd-Xaz">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="2000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

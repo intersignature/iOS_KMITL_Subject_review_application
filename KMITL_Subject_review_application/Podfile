@@ -9,6 +9,7 @@ target 'KMITL_Subject_review_application' do
 pod 'Firebase/Core'
 pod 'Firebase/Database'
 pod 'Firebase/Auth'
+pod 'Firebase/Messaging'
 
   target 'KMITL_Subject_review_applicationTests' do
     inherit! :search_paths

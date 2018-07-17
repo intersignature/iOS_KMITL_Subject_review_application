@@ -18,6 +18,7 @@
 		B2FA15D420F7232E001F6073 /* KMITL_Subject_review_applicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FA15D320F7232E001F6073 /* KMITL_Subject_review_applicationTests.swift */; };
 		B2FA15DF20F7232F001F6073 /* KMITL_Subject_review_applicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FA15DE20F7232F001F6073 /* KMITL_Subject_review_applicationUITests.swift */; };
 		B2FA15ED20F72497001F6073 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2FA15EC20F72497001F6073 /* GoogleService-Info.plist */; };
+		B2FDD87920FDE6DD00BF7ACF /* ShowDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FDD87820FDE6DD00BF7ACF /* ShowDataViewController.swift */; };
 		F635A6B861F57D27E930B100 /* Pods_KMITL_Subject_review_application.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF9187E44ED6C8F364949F3 /* Pods_KMITL_Subject_review_application.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +61,7 @@
 		B2FA15DE20F7232F001F6073 /* KMITL_Subject_review_applicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMITL_Subject_review_applicationUITests.swift; sourceTree = "<group>"; };
 		B2FA15E020F7232F001F6073 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2FA15EC20F72497001F6073 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B2FDD87820FDE6DD00BF7ACF /* ShowDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDataViewController.swift; sourceTree = "<group>"; };
 		BFEAB8A9ED29391BEF02B938 /* Pods-KMITL_Subject_review_application.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KMITL_Subject_review_application.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KMITL_Subject_review_application/Pods-KMITL_Subject_review_application.debug.xcconfig"; sourceTree = "<group>"; };
 		CA6320C948612C593BDA7C8E /* Pods_KMITL_Subject_review_applicationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KMITL_Subject_review_applicationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4610E56F92FE832050184C4 /* Pods-KMITL_Subject_review_applicationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KMITL_Subject_review_applicationUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KMITL_Subject_review_applicationUITests/Pods-KMITL_Subject_review_applicationUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				B2FA15CA20F7232E001F6073 /* Info.plist */,
 				B2FA15EC20F72497001F6073 /* GoogleService-Info.plist */,
 				B212C96620F75EFF005A193D /* RegisterViewController.swift */,
+				B2FDD87820FDE6DD00BF7ACF /* ShowDataViewController.swift */,
 			);
 			path = KMITL_Subject_review_application;
 			sourceTree = "<group>";
@@ -366,6 +369,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-KMITL_Subject_review_application/Pods-KMITL_Subject_review_application-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -373,6 +377,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -389,6 +394,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B212C96720F75EFF005A193D /* RegisterViewController.swift in Sources */,
+				B2FDD87920FDE6DD00BF7ACF /* ShowDataViewController.swift in Sources */,
 				B2FA15C120F7232D001F6073 /* ViewController.swift in Sources */,
 				B2FA15BF20F7232D001F6073 /* AppDelegate.swift in Sources */,
 			);

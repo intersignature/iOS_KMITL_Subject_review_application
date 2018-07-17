@@ -9,6 +9,8 @@
 import UIKit
 import Firebase
 
+
+
 class ViewController: UIViewController {
 
     @IBOutlet weak var emailTF: UITextField!
@@ -16,12 +18,14 @@ class ViewController: UIViewController {
 
     @IBAction func signinAct(_ sender: Any) {
         
-        
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+       
+        
     }
 
     override func didReceiveMemoryWarning() {
